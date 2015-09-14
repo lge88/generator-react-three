@@ -20,6 +20,7 @@ module.exports = yeoman.generators.Base.extend({
     app: function app() {
       this._copyR('bin', 'bin');
       this._copyR('components', 'components');
+      this._copyR('images', 'images');
       this._copyR('stages', 'stages');
       this._copyR('lib', 'lib');
 
